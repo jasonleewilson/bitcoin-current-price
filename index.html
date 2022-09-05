@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitcoin-Current-Price</title>
+    <link rel="stylesheet" href="dist/styles.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-54700212-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-54700212-1');
+</script>
+
+
+</head>
+
+<body>
+
+    <script src="https://use.typekit.net/tou5pbt.js"></script>
+    <script>
+        try {
+            Typekit.load({
+                async: true
+            });
+        } catch (e) {}
+    </script>
+
+    <div class="btc-badge">
+        <p>Bitcoin-Current-Price</p>
+        <h1>${{ btcUSD }}</h1>
+        <p>Past 24 hours</p>
+        <h2 :class="upDown">{{ percentChange }}%</h2>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.3.4/vue.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
