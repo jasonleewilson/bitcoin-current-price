@@ -25,13 +25,13 @@ body {
 h1 {
   letter-spacing: 0.05em;
   margin: .25em 0;
-  font-size: 8rem;
+  font-size: 4rem;
 }
 
 h2 {
   letter-spacing: 0.05em;
   margin: .25em 0;
-  font-size: 8em;
+  font-size: 4em;
 }
 
 p {
@@ -77,4 +77,3 @@ p {
   margin-top: .1em;
   width: 0;
 }
-/*# sourceMappingURL=styles.css.map */
