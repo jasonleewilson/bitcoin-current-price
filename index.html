@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitcoin-Current-Price.com</title>
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-P3RS9RTP');</script>
+  <!-- End Google Tag Manager -->
+  </head>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P3RS9RTP"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+    <script src="https://use.typekit.net/tou5pbt.js"></script>
+    <script>
+        try {
+            Typekit.load({
+                async: true,
+            });
+        } catch (e) {}
+    </script>
+
+    <div id="app">
+      <div class="btc-badge">
+        <p>Bitcoin-Current-Price</p>
+        <h1>${{ btcUSD }}</h1>
+        <p>Past 24 hours</p>
+        <h2 :class="upDown">{{ percentChange }}%</h2>
+    </div>
+    </div>
+
+    </div>
+    <script type="module" src="/src/main.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </body>
+</html>
