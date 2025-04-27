@@ -55,7 +55,7 @@ function BTCBadge() {
           <h1 className='mb-4 text-xs'>Bitcoin-Current-Price</h1>
           <p className='mb-4 text-[16vw] md:text-[8vw]'>${btcUSD.toFixed(2)}</p>
           <h2 className='mb-4 text-xs'>Past 24 hours</h2>
-          <p className={`sm:text-[16vw] text-[8vw] ${upDown}`}>
+          <p className={`text-[16vw] md:text-[8vw] ${upDown}`}>
             {percentChange.toFixed(4)}%
           </p>
         </div>

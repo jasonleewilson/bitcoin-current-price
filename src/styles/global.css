@@ -9,7 +9,7 @@ body {
 }
 
 
-body {
+html {
     background-image: -webkit-gradient(linear, left top, right top, from(#222121), to(#3f3f42));
     background-image: linear-gradient(to right, #222121, #3f3f42);
 }
