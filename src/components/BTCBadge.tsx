@@ -53,9 +53,11 @@ function BTCBadge() {
       <main className='h-screen w-screen flex flex-col items-center justify-center'>
         <div className='flex flex-col items-left'>
           <h1 className='mb-4 text-xs'>Bitcoin-Current-Price</h1>
-          <p className='mb-4 text-[8vw]'>${btcUSD.toFixed(2)}</p>
+          <p className='mb-4 text-[16vw] md:text-[8vw]'>${btcUSD.toFixed(2)}</p>
           <h2 className='mb-4 text-xs'>Past 24 hours</h2>
-          <p className={`text-[8vw] ${upDown}`}>{percentChange.toFixed(4)}%</p>
+          <p className={`sm:text-[16vw] text-[8vw] ${upDown}`}>
+            {percentChange.toFixed(4)}%
+          </p>
         </div>
       </main>
     </div>
